@@ -13,4 +13,10 @@ type in cmd > PowerShell Set-ExecutionPolicy Bypass
 ...or if you dont have administrator:
 in cmd > PowerShell Set-ExecutionPolicy -Scope CurrentUser
 
+Can use:
+Openapps, write string in console, GDI (patblt, stretchblt etc...)
+
+Cant use:
+winForm, GDI(ellipse, rectangle etc...)
+
 Thanks for mist0090
